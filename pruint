@@ -1,13 +1,18 @@
+/*
+2. Tee ohjelma, jossa on pääohjelma (main-funktio) ja aliohjelma (funktio) nimeltä lue().
+Pääohjelmasta kutsutaan em. aliohjelmaa, joka tulostaa näytölle ”Anna kokonaisluku”.
+Tässä aliohjelmassa luetaan myös kokonaisluku ja palautetaan se pääohjelmaan, joka
+tulostaa luvun näytölle.
+*/
+
 #include <stdio.h>
+
+void read() {
+    printf("Anna kokonaisluku: \n");
+}
 
 int main() {
     
-    void print();
-    
-    print();
+     read();
     return 0;
-}
-
-void print() {
-    printf("Hei maailma");
 }
